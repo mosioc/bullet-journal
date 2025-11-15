@@ -1,6 +1,7 @@
 {
   "name": "@mosioc/bullet-journal",
   "version": "1.0.0",
+  "type": "module",
   "description": "A simple bullet journal library for managing daily, monthly, and yearly logs",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -9,24 +10,14 @@
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [
-    "bullet-journal",
-    "logging",
-    "productivity"
-  ],
+  "keywords": ["bullet-journal", "logging", "productivity"],
   "author": "mosioc",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mosioc/bullet-journal.git"
+    "url": "git+https://github.com/mosioc/bullet-journal.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
-  },
-  "devDependencies": {
-    "@rollup/plugin-commonjs": "^29.0.0",
-    "@rollup/plugin-node-resolve": "^16.0.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "rollup": "^4.53.2"
   }
 }
