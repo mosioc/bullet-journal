@@ -1,8 +1,8 @@
 {
   "name": "@mosioc/bullet-journal",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "type": "module",
-  "description": "A simple bullet journal library for managing daily, monthly, and yearly logs",
+  "description": "A simple bullet journal library for managing daily, monthly, and yearly logs with habit tracking, tags, and priority management",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,7 @@
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["bullet-journal", "logging", "productivity"],
+  "keywords": ["bullet-journal", "logging", "productivity", "habits", "tags", "tasks"],
   "author": "mosioc",
   "license": "MIT",
   "repository": {
